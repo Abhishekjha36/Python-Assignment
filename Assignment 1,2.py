@@ -1,6 +1,4 @@
-#Q4
 print("Hello Python")
-
 print("Hello ")
 
 print("Python")
@@ -16,9 +14,9 @@ print(x)
 
 
 
-name="Name Abhishek Jha" 
-age="age 19"
-qual="qualification 12th pass"
+name="Name kunal kumar" 
+age="age 24"
+qual="Btech pass"
 expe="experience of 2 years"
 print(name,age,qual,expe,sep="\n")
 
