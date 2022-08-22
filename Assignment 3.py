@@ -1,8 +1,8 @@
 
 # Q1
 
-a="5"
-print(type(a))
+a=5
+print(str(a)type(a))
 
 # Q2
 
@@ -27,9 +27,8 @@ a=39
 print(hex(a))
 
 # Q7
-x="0b1100101"
-dec_x=int(x, 2)
-print(dec_x)
+x=0b1100101
+print(x)
 
 # Q8
 
@@ -48,3 +47,4 @@ a=0o31
 b=0x27
 c=a+b
 print(bin(c))
+
