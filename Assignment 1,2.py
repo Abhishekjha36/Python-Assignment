@@ -1,18 +1,14 @@
 print("Hello Python")
-print("Hello ")
 
-print("Python")
+print("Hello","python",sep="\n")
 
-print(""" "MySirG" """)
+print("\"MySirG\"")
 
-print(""" "Teacher's Day" """)
+print("\"Teacher's Day\"")
 
 x="Abhishek jha"
 print(x)
  
-
-
-
 
 name="Name kunal kumar" 
 age="age 24"
@@ -27,7 +23,7 @@ c=8
 print(a,b,c,sep=("\n"))
 
 
-print('Learning Python')
+#print('Learning Python')
 
 name="abhishek jha"
 x="mysirg"
@@ -70,7 +66,9 @@ A=True
 print(A)
 
 
-date=("17-8-2022")
-time=("1:00 PM")
-print(date,time,sep=("\n"))
+import datetime
+now=datetime.datetime.now()
+print("current date time is")
+print(now.strftime("%d-%m-%Y %H:%M:%S") )
+
 
